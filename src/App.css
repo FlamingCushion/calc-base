@@ -1,0 +1,52 @@
+.App {
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+    display: inline-block;
+}
+
+.App-header {
+    background-color: #222;
+    height: 82px;
+    padding: 20px;
+    color: white;
+}
+
+.App-body {
+    background-color: #f1f1f1;
+}
+
+.App-intro {
+    font-size: large;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    display: inline-block;
+    font-family: monospace;
+    text-transform: uppercase;
+    float: right;
+}
+
+.calculator {
+    max-width: 350px;
+    margin: 0 auto 40px;
+    padding: 15px;
+    background-color: #cecece;
+    font-family: monospace;
+}
+
+.input-group { height: 35px; }
+
+.input-group label,
+.input-group .range-container { display: inline-block; }
+
+
+.input-group .range-container { float: right; }
+
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
