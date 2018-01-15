@@ -4,6 +4,7 @@ import './App.css';
 
 import SeedCalculator from './seed-calc';
 import PondCalculator from './pond-calc';
+import SoilCalculator from './soil-calc';
 
 class App extends Component {
     render() {
@@ -14,24 +15,22 @@ class App extends Component {
                     <h3 className="App-intro">
                         Demo of react calculator for seed and pond liners
                     </h3>
-                </div>                
-                <div className="App-body">                
-                    <div>
-                        <div></div>
-                        <div>
-                            <SeedCalculator />
-                        </div>
-                    </div>
-                    
-                    <div>
-                        <div></div>
-                        <div>
-                            <PondCalculator />
-                        </div>
-                    </div>
-                
                 </div>
-                
+                <div className="App-body calculators">
+                    <div className="calculators__calc">
+                            <SeedCalculator />
+                    </div>
+
+                    <div className="calculators__calc">
+                            <PondCalculator />
+                    </div>
+
+                    <div className="calculators__calc">
+                        <SoilCalculator />
+                    </div>
+
+                </div>
+
             </div>
         );
     }
