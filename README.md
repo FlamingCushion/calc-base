@@ -9,8 +9,6 @@ The Individual Calculator equations are detailed in the relative /src/<name>-cal
 
 ## Available Scripts
 
-This project is built using webpack.
-
 In the project directory, you can run:
 
 ### `npm start`
@@ -33,3 +31,11 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
+
+## Styles
+
+The project also uses gulp to compile the Styles
+
+Add any styling into app.scss
+
+Run 'gulp sass' to compile the styles
